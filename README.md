@@ -7,5 +7,5 @@ btw i used scapy you can use scapy just run that ``sudo scapy``
 # Usuage
 ```
 chmod +x your_file.py
-python3 your_file.py
+sudo python3 your_file.py
 ```
